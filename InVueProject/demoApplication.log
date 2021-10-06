@@ -1,0 +1,42 @@
+[main] INFO  PO_Functions.BaseClass  - Login Test passed
+[main] INFO  PO_Functions.LoginPage  - username entered.
+[main] INFO  PO_Functions.LoginPage  - Password entered.
+[main] INFO  PO_Functions.LoginPage  - succesfully click on login.
+[main] INFO  PO_Functions.BaseClass  - Login Test passed
+[main] INFO  PO_Functions.LoginPage  - username entered.
+[main] INFO  PO_Functions.LoginPage  - Password entered.
+[main] INFO  PO_Functions.LoginPage  - succesfully click on login.
+[main] INFO  PO_Functions.BaseClass  - login successful
+[main] INFO  PO_Functions.AddNewUserPage  - first name added
+[main] INFO  PO_Functions.AddNewUserPage  - last name added
+[main] INFO  PO_Functions.AddNewUserPage  - employee added
+[main] INFO  PO_Functions.AddNewUserPage  - user type added
+[main] INFO  PO_Functions.AddNewUserPage  - Division selected!!
+[main] INFO  PO_Functions.AddNewUserPage  - Region selected!!
+[main] INFO  PO_Functions.AddNewUserPage  - Store selected!!
+[main] INFO  PO_Functions.AddNewUserPage  - Clicked on Set Store!! 
+[main] INFO  PO_Functions.BaseClass  - user created
+[main] INFO  PO_Functions.LoginPage  - username entered.
+[main] INFO  PO_Functions.LoginPage  - Password entered.
+[main] INFO  PO_Functions.LoginPage  - succesfully click on login.
+[main] INFO  PO_Functions.BaseClass  - login successful
+[main] INFO  PO_Functions.BaseClass  - Role name Added.
+[main] INFO  PO_Functions.BaseClass  - Role Desc Added.
+[main] INFO  PO_Functions.LoginPage  - username entered.
+[main] INFO  PO_Functions.LoginPage  - Password entered.
+[main] INFO  PO_Functions.LoginPage  - succesfully click on login.
+[main] INFO  PO_Functions.BaseClass  - login successful
+[main] INFO  PO_Functions.BaseClass  - Role name Added.
+[main] INFO  PO_Functions.BaseClass  - Role Desc Added.
+[main] INFO  PO_Functions.LoginPage  - username entered.
+[main] INFO  PO_Functions.LoginPage  - Password entered.
+[main] INFO  PO_Functions.LoginPage  - succesfully click on login.
+[main] INFO  PO_Functions.BaseClass  - login successful
+[main] INFO  PO_Functions.BaseClass  - Role name Added.
+[main] INFO  PO_Functions.BaseClass  - Role Desc Added.
+[main] INFO  PO_Functions.LoginPage  - username entered.
+[main] INFO  PO_Functions.LoginPage  - Password entered.
+[main] INFO  PO_Functions.LoginPage  - succesfully click on login.
+[main] INFO  PO_Functions.BaseClass  - login successful
+[main] INFO  PO_Functions.BaseClass  - Role name Added.
+[main] INFO  PO_Functions.BaseClass  - Role Desc Added.
