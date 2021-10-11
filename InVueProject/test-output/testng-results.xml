@@ -2,34 +2,34 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-10-11T10:50:49 IST" name="Default suite" finished-at="2021-10-11T10:51:42 IST" duration-ms="52389">
+  <suite started-at="2021-10-11T22:26:36 IST" name="Default suite" finished-at="2021-10-11T22:27:48 IST" duration-ms="72493">
     <groups>
     </groups>
-    <test started-at="2021-10-11T10:50:49 IST" name="Default test" finished-at="2021-10-11T10:51:42 IST" duration-ms="52389">
+    <test started-at="2021-10-11T22:26:36 IST" name="Default test" finished-at="2021-10-11T22:27:48 IST" duration-ms="72493">
       <class name="TC_InVue.TesttoEditUser">
-        <test-method is-config="true" signature="setup()[pri:0, instance:TC_InVue.TesttoEditUser@4a94ee4]" started-at="2021-10-11T10:50:49 IST" name="setup" finished-at="2021-10-11T10:51:12 IST" duration-ms="22790" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TC_InVue.TesttoEditUser@4a94ee4]" started-at="2021-10-11T22:26:36 IST" name="setup" finished-at="2021-10-11T22:27:14 IST" duration-ms="37966" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="EditUser()[pri:0, instance:TC_InVue.TesttoEditUser@4a94ee4]" started-at="2021-10-11T10:51:12 IST" name="EditUser" finished-at="2021-10-11T10:51:41 IST" duration-ms="28444" status="FAIL">
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+        <test-method signature="EditUser()[pri:0, instance:TC_InVue.TesttoEditUser@4a94ee4]" started-at="2021-10-11T22:27:14 IST" name="EditUser" finished-at="2021-10-11T22:27:47 IST" duration-ms="32938" status="FAIL">
+          <exception class="org.openqa.selenium.JavascriptException">
             <message>
-              <![CDATA[element click intercepted: Element <button class="button secondary small">...</button> is not clickable at point (1422, 459). Other element would receive the click: <div id="modal-container" class="Modal-container AdminModal">...</div>
+              <![CDATA[javascript error: window.document.getElementByXpath is not a function
   (Session info: chrome=94.0.4606.71)
 Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
 System info: host: 'LAPTOP-MQIQG94F', ip: '192.168.43.251', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.71, chrome: {chromedriverVersion: 94.0.4606.41 (333e85df3c9b6..., userDataDir: C:\Users\tejas\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50951}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: d63c159dda984a935aac36f44236b485]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.71, chrome: {chromedriverVersion: 94.0.4606.41 (333e85df3c9b6..., userDataDir: C:\Users\tejas\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49559}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b78f30a7bded92ff07f241e571906243]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button class="button secondary small">...</button> is not clickable at point (1422, 459). Other element would receive the click: <div id="modal-container" class="Modal-container AdminModal">...</div>
+              <![CDATA[org.openqa.selenium.JavascriptException: javascript error: window.document.getElementByXpath is not a function
   (Session info: chrome=94.0.4606.71)
 Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
 System info: host: 'LAPTOP-MQIQG94F', ip: '192.168.43.251', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.71, chrome: {chromedriverVersion: 94.0.4606.41 (333e85df3c9b6..., userDataDir: C:\Users\tejas\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50951}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: d63c159dda984a935aac36f44236b485
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.71, chrome: {chromedriverVersion: 94.0.4606.41 (333e85df3c9b6..., userDataDir: C:\Users\tejas\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49559}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b78f30a7bded92ff07f241e571906243
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -41,16 +41,10 @@ at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCo
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
-at PO_Functions.EditUserPage.ClickLevelofAccess(EditUserPage.java:128)
-at PO_Functions.EditUserPage.Edituser(EditUserPage.java:189)
+at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:482)
+at PO_Functions.EditUserPage.ChangeDivision(EditUserPage.java:184)
+at PO_Functions.EditUserPage.ClickLevelofAccess(EditUserPage.java:147)
+at PO_Functions.EditUserPage.Edituser(EditUserPage.java:218)
 at TC_InVue.TesttoEditUser.EditUser(TesttoEditUser.java:23)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
@@ -82,11 +76,11 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          </exception> <!-- org.openqa.selenium.JavascriptException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EditUser -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:TC_InVue.TesttoEditUser@4a94ee4]" started-at="2021-10-11T10:51:41 IST" name="teardown" finished-at="2021-10-11T10:51:42 IST" duration-ms="1018" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TC_InVue.TesttoEditUser@4a94ee4]" started-at="2021-10-11T22:27:47 IST" name="teardown" finished-at="2021-10-11T22:27:48 IST" duration-ms="1472" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
