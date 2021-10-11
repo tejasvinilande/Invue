@@ -1,12 +1,17 @@
 package PO_Functions;
 
+import static org.testng.Assert.assertNotNull;
+import static org.testng.Assert.assertTrue;
+
 import java.util.Iterator;
+import java.util.List;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -64,6 +69,7 @@ public class EditUserPage extends WebElementActions{
 	@FindBy(xpath = "//*[@id=\"modal-container\"]/div[2]/div/button[2]")
 	WebElement btnSetStore;
 	
+	
 	public void clickuser() {
 		lnkUser.click();
 	}
@@ -117,80 +123,101 @@ public class EditUserPage extends WebElementActions{
 	}
 	
 	
-	 public void ClickLevelofAccess () throws InterruptedException { 
-		  
-			
-
-		  String parentWindowHandler = driver.getWindowHandle(); // Store your parent
-		   String subWindowHandler = null;
-		 
-		
-		   btnLevelofAccess.click();
-
-		
-		  Set<String> handles = driver.getWindowHandles(); // get all window handles
-		  Iterator<String> iterator = handles.iterator(); while (iterator.hasNext()) {
-		  subWindowHandler = iterator.next(); }
-		  driver.switchTo().window(subWindowHandler);
-		  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		  ChangeDivision();
-		 // changeRegion();
-		 // selectStore();
-		  ClickSetStore();
-		  
-		  driver.switchTo().window(parentWindowHandler);
-		  
- }
-	
-	  public void ChangeDivision() throws InterruptedException
+	  public void ClickLevelofAccess () throws InterruptedException {
 	  
-	  { 
-		
-		  driver.findElement(By.xpath( "//*[@id=\"modal-container\"]/div[1]/div/table/tbody/tr[1]/td[2]/div/div/span[1]/span" )).click();
-		  WebElement element=driver.findElement(By.xpath( "//*[@id=\"react-select-2--value\"]/div[1]")); 
-		  element.click(); 
-		  element.sendKeys("south");
-		  WebDriverWait wait = new WebDriverWait(driver, 15); 
-		 driver.findElement(By.xpath("//*[text()='South (A)']")).click();
-		 
-		  Thread.sleep(5000);
 	  
-		  logger.info("Division changed!!");
-		  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+	  
+	  String parentWindowHandler = driver.getWindowHandle(); // Store your parent
+	  String subWindowHandler = null;
+	  
+	  Thread.sleep(5000); btnLevelofAccess.click();
+	  
+	  
+	  Set<String> handles = driver.getWindowHandles(); // get all window handles
+	  Iterator<String> iterator = handles.iterator(); 
+	  
+	  while (iterator.hasNext()) {
+		  
+	  subWindowHandler = iterator.next();
 	  
 	  }
 	  
-		
-		
+	  driver.switchTo().window(subWindowHandler);
+	  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS); //
+	  ChangeDivision(); // changeRegion(); // selectStore(); //
+	  ClickSetStore();
 	  
-	  public void Clicksave() {
-		  btnsave.click(); 
-		  }
+	  driver.switchTo().window(parentWindowHandler);
 	  
-	  public void ClickSetStore() throws InterruptedException {
+	  }
+	 
+	
+	
+	  public void ChangeDivision() throws InterruptedException
 	  
-	  btnSetStore.click();
-	  logger.info("Clicked on Set Store!! ");
+	  {
+	  
+	  driver.findElement(By.xpath(  "//*[@id=\"modal-container\"]/div[1]/div/table/tbody/tr[1]/td[2]/div/div/span[1]/span"  )).click();
+	  WebElement element=driver.findElement(By.xpath(  "//*[@id=\"react-select-2--value\"]/div[1]"));
+	  element.click();
+
+	  WebDriverWait wait = new WebDriverWait(driver, 50);
+	 	
+	 WebElement div=driver.findElement(By.xpath("//*[contains(text(),'South (A)')]"));
+	//  Thread.sleep(5000);
+	  
+	/*
+	 * Actions action = new Actions(driver); WebElement optionsList =
+	 * driver.findElement(By.xpath("//span[contains(text(),'South (A)')]"));
+	 * action.moveToElement(optionsList);
+	 * 
+	 * List<WebElement> options =
+	 * driver.findElements(By.xpath("//span[contains(text(),'South (A)')]"));
+	 * for(WebElement option : options) { if (option.getText().equals("South (A)"))
+	 * { option.click(); } }
+	 */
+	  
+	  
+	  
+	// JavascriptExecutor js = (JavascriptExecutor)driver;
+	// js.executeScript("arguments[0].click();", div);
+	//  js.executeScript("window.document.getElementByxpath(\"//span[contains(text(),'South (A)')]\").click()");
+	  
+	  Thread.sleep(5000);
+	  
+	  logger.info("Division changed!!");
 	  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	  
 	  }
 	  
+		public void ClickSetStore() throws InterruptedException {
+			
+			btnSetStore.click();
+			logger.info("Clicked on Set Store!! ");
+			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+			
+		}
+		
+
+		public void Clicksave() {
+			btnsave.click();
+		}
+	 
+	
 	  public void Edituser() throws InterruptedException { 
 	  
 		  clickuser();
+		  Thread.sleep(5000);
 		  searchuser("Test User");
 		  Thread.sleep(5000);
 		  selectuser();
-		  Thread.sleep(5000);
 		  changefirstname("New");
 		  changelastname("Edit");
 		  changeId("123445");
-		  changeusertype();
+		//  changeusertype();
 		  ClickLevelofAccess();
-		  
-		  
-		  
-		  
+		  Clicksave();
+	 
 	  
 	  }
 	  
