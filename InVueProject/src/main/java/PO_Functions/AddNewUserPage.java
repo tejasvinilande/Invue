@@ -64,15 +64,7 @@ public class AddNewUserPage extends WebElementActions {
 
 	@FindBy(xpath = "//*[@id=\"scroller\"]/div/div[12]/div[3]/button")
 	WebElement btnLevelofAccess;
-
-	@FindBy(xpath = "//*[@id=\"modal-container\"]/div[1]/div/table/tbody/tr[1]/td[2]/div/div")
-	WebElement  btnSelDiv;
-
-	@FindBy(xpath = "//*[@id=\"modal-container\"]/div[1]/div/table/tbody/tr[2]/td[2]/div/div")
-	List<WebElement> btnSelRegion;
-
-	@FindBy(xpath = "//*[@id=\"modal-container\"]/div[1]/div/table/tbody/tr[3]/td[2]/div/div")
-	List<WebElement> btnSelStore;
+	
 
 	@FindBy(xpath = "//*[@id=\"modal-container\"]/div[2]/div/button[2]")
 	WebElement btnSetStore;
@@ -143,16 +135,12 @@ public class AddNewUserPage extends WebElementActions {
 		  public void selectDivision() throws InterruptedException
 		  
 		  {
-		
-			
 			    WebElement element=driver.findElement(By.xpath("//*[@id=\"react-select-2--value\"]/div[1]"));
 		        element.click();
 		        driver.findElement(By.xpath("//*[text()='Test Division']")).click();
 		        logger.info("Division selected!!");
 		        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-			  
-				
-		  
+			
 		  }
 		 
 
@@ -188,6 +176,7 @@ public class AddNewUserPage extends WebElementActions {
 	}
 
 	public void ClickSetStore() throws InterruptedException {
+		
 		btnSetStore.click();
 		logger.info("Clicked on Set Store!! ");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -214,6 +203,7 @@ public class AddNewUserPage extends WebElementActions {
 	}
 
 	public void Adduser() throws InterruptedException {
+		
 		Random random = new Random();
 		clickuser();
 		clickadduser();

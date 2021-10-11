@@ -40,3 +40,379 @@
 [main] INFO  PO_Functions.BaseClass  - login successful
 [main] INFO  PO_Functions.BaseClass  - Role name Added.
 [main] INFO  PO_Functions.BaseClass  - Role Desc Added.
+[main] INFO  PO_Functions.LoginPage  - username entered.
+[main] INFO  PO_Functions.LoginPage  - Password entered.
+[main] INFO  PO_Functions.LoginPage  - succesfully click on login.
+[main] INFO  PO_Functions.BaseClass  - login successful
+[main] INFO  PO_Functions.LoginPage  - username entered.
+[main] INFO  PO_Functions.LoginPage  - Password entered.
+[main] INFO  PO_Functions.LoginPage  - succesfully click on login.
+[main] INFO  PO_Functions.BaseClass  - login successful
+[main] INFO  PO_Functions.LoginPage  - username entered.
+[main] INFO  PO_Functions.LoginPage  - Password entered.
+[main] INFO  PO_Functions.LoginPage  - succesfully click on login.
+[main] INFO  PO_Functions.BaseClass  - login successful
+[main] INFO  PO_Functions.EditUserPage  - first name added
+[main] INFO  PO_Functions.LoginPage  - username entered.
+[main] INFO  PO_Functions.LoginPage  - Password entered.
+[main] INFO  PO_Functions.LoginPage  - succesfully click on login.
+[main] INFO  PO_Functions.BaseClass  - login successful
+[main] INFO  PO_Functions.EditUserPage  - succesfully Search for user.
+[main] INFO  PO_Functions.EditUserPage  - 
+[main] INFO  PO_Functions.LoginPage  - username entered.
+[main] INFO  PO_Functions.LoginPage  - Password entered.
+[main] INFO  PO_Functions.LoginPage  - succesfully click on login.
+[main] INFO  PO_Functions.BaseClass  - login successful
+[main] INFO  PO_Functions.EditUserPage  - succesfully Search for user.
+[main] INFO  PO_Functions.LoginPage  - username entered.
+[main] INFO  PO_Functions.LoginPage  - Password entered.
+[main] INFO  PO_Functions.LoginPage  - succesfully click on login.
+[main] INFO  PO_Functions.BaseClass  - login successful
+[main] INFO  PO_Functions.EditUserPage  - succesfully Search for user.
+[main] INFO  PO_Functions.LoginPage  - username entered.
+[main] INFO  PO_Functions.LoginPage  - Password entered.
+[main] INFO  PO_Functions.LoginPage  - succesfully click on login.
+[main] INFO  PO_Functions.BaseClass  - login successful
+[main] INFO  PO_Functions.EditUserPage  - succesfully Search for user.
+[main] INFO  PO_Functions.LoginPage  - username entered.
+[main] INFO  PO_Functions.LoginPage  - Password entered.
+[main] INFO  PO_Functions.LoginPage  - succesfully click on login.
+[main] INFO  PO_Functions.BaseClass  - login successful
+[main] INFO  PO_Functions.EditUserPage  - succesfully Search for user.
+[main] INFO  PO_Functions.LoginPage  - username entered.
+[main] INFO  PO_Functions.LoginPage  - Password entered.
+[main] INFO  PO_Functions.LoginPage  - succesfully click on login.
+[main] INFO  PO_Functions.BaseClass  - login successful
+[main] INFO  PO_Functions.EditUserPage  - succesfully Search for user.
+[main] INFO  PO_Functions.LoginPage  - username entered.
+[main] INFO  PO_Functions.LoginPage  - Password entered.
+[main] INFO  PO_Functions.LoginPage  - succesfully click on login.
+[main] INFO  PO_Functions.BaseClass  - login successful
+[main] INFO  PO_Functions.EditUserPage  - succesfully Search for user.
+[main] INFO  PO_Functions.LoginPage  - username entered.
+[main] INFO  PO_Functions.LoginPage  - Password entered.
+[main] INFO  PO_Functions.LoginPage  - succesfully click on login.
+[main] INFO  PO_Functions.BaseClass  - login successful
+[main] INFO  PO_Functions.EditUserPage  - succesfully Search for user.
+[main] INFO  PO_Functions.LoginPage  - username entered.
+[main] INFO  PO_Functions.LoginPage  - Password entered.
+[main] INFO  PO_Functions.LoginPage  - succesfully click on login.
+[main] INFO  PO_Functions.BaseClass  - login successful
+[main] INFO  PO_Functions.EditUserPage  - succesfully Search for user.
+[main] INFO  PO_Functions.LoginPage  - username entered.
+[main] INFO  PO_Functions.LoginPage  - Password entered.
+[main] INFO  PO_Functions.LoginPage  - succesfully click on login.
+[main] INFO  PO_Functions.BaseClass  - login successful
+[main] INFO  PO_Functions.EditUserPage  - succesfully Search for user.
+[main] INFO  PO_Functions.LoginPage  - username entered.
+[main] INFO  PO_Functions.LoginPage  - Password entered.
+[main] INFO  PO_Functions.LoginPage  - succesfully click on login.
+[main] INFO  PO_Functions.BaseClass  - login successful
+[main] INFO  PO_Functions.EditUserPage  - succesfully Search for user.
+[main] INFO  PO_Functions.LoginPage  - username entered.
+[main] INFO  PO_Functions.LoginPage  - Password entered.
+[main] INFO  PO_Functions.LoginPage  - succesfully click on login.
+[main] INFO  PO_Functions.BaseClass  - login successful
+[main] INFO  PO_Functions.EditUserPage  - succesfully Search for user.
+[main] INFO  PO_Functions.EditUserPage  - Text is : 1234
+[main] INFO  PO_Functions.EditUserPage  - another user is selected.
+[main] INFO  PO_Functions.EditUserPage  - Division changed!!
+[main] INFO  PO_Functions.EditUserPage  - Region changed!!
+[main] INFO  PO_Functions.EditUserPage  - Store changed!!
+[main] INFO  PO_Functions.EditUserPage  - Clicked on Set Store!! 
+[main] INFO  PO_Functions.LoginPage  - username entered.
+[main] INFO  PO_Functions.LoginPage  - Password entered.
+[main] INFO  PO_Functions.LoginPage  - succesfully click on login.
+[main] INFO  PO_Functions.BaseClass  - login successful
+[main] INFO  PO_Functions.EditUserPage  - succesfully Search for user.
+[main] INFO  PO_Functions.EditUserPage  - Text is : 1234
+[main] INFO  PO_Functions.EditUserPage  - another user is selected.
+[main] INFO  PO_Functions.LoginPage  - username entered.
+[main] INFO  PO_Functions.LoginPage  - Password entered.
+[main] INFO  PO_Functions.LoginPage  - succesfully click on login.
+[main] INFO  PO_Functions.BaseClass  - login successful
+[main] INFO  PO_Functions.EditUserPage  - succesfully Search for user.
+[main] INFO  PO_Functions.EditUserPage  - Text is : 1234
+[main] INFO  PO_Functions.EditUserPage  - another user is selected.
+[main] INFO  PO_Functions.LoginPage  - username entered.
+[main] INFO  PO_Functions.LoginPage  - Password entered.
+[main] INFO  PO_Functions.LoginPage  - succesfully click on login.
+[main] INFO  PO_Functions.BaseClass  - login successful
+[main] INFO  PO_Functions.EditUserPage  - succesfully Search for user.
+[main] INFO  PO_Functions.EditUserPage  - Text is : TestUser77
+[main] INFO  PO_Functions.EditUserPage  - another user is selected.
+[main] INFO  PO_Functions.LoginPage  - username entered.
+[main] INFO  PO_Functions.LoginPage  - Password entered.
+[main] INFO  PO_Functions.LoginPage  - succesfully click on login.
+[main] INFO  PO_Functions.BaseClass  - login successful
+[main] INFO  PO_Functions.EditUserPage  - succesfully Search for user.
+[main] INFO  PO_Functions.EditUserPage  - Text is : TestUser77
+[main] INFO  PO_Functions.EditUserPage  - another user is selected.
+[main] INFO  PO_Functions.LoginPage  - username entered.
+[main] INFO  PO_Functions.LoginPage  - Password entered.
+[main] INFO  PO_Functions.LoginPage  - succesfully click on login.
+[main] INFO  PO_Functions.BaseClass  - login successful
+[main] INFO  PO_Functions.EditUserPage  - succesfully Search for user.
+[main] INFO  PO_Functions.EditUserPage  - Employee Id is : TestUser77
+[main] INFO  PO_Functions.LoginPage  - username entered.
+[main] INFO  PO_Functions.LoginPage  - Password entered.
+[main] INFO  PO_Functions.LoginPage  - succesfully click on login.
+[main] INFO  PO_Functions.BaseClass  - login successful
+[main] INFO  PO_Functions.EditUserPage  - succesfully Search for user.
+[main] INFO  PO_Functions.EditUserPage  - Employee Id is : TestUser77
+[main] INFO  PO_Functions.LoginPage  - username entered.
+[main] INFO  PO_Functions.LoginPage  - Password entered.
+[main] INFO  PO_Functions.LoginPage  - succesfully click on login.
+[main] INFO  PO_Functions.BaseClass  - login successful
+[main] INFO  PO_Functions.EditUserPage  - succesfully Search for user.
+[main] INFO  PO_Functions.EditUserPage  - Employee Id is : TestUser77
+[main] INFO  PO_Functions.LoginPage  - username entered.
+[main] INFO  PO_Functions.LoginPage  - Password entered.
+[main] INFO  PO_Functions.LoginPage  - succesfully click on login.
+[main] INFO  PO_Functions.BaseClass  - login successful
+[main] INFO  PO_Functions.EditUserPage  - succesfully Search for user.
+[main] INFO  PO_Functions.EditUserPage  - Employee Id is : TestUser77
+[main] INFO  PO_Functions.EditUserPage  - Division changed!!
+[main] INFO  PO_Functions.LoginPage  - username entered.
+[main] INFO  PO_Functions.LoginPage  - Password entered.
+[main] INFO  PO_Functions.LoginPage  - succesfully click on login.
+[main] INFO  PO_Functions.BaseClass  - login successful
+[main] INFO  PO_Functions.EditUserPage  - succesfully Search for user.
+[main] INFO  PO_Functions.EditUserPage  - Employee Id is : TestUser77
+[main] INFO  PO_Functions.EditUserPage  - Division changed!!
+[main] INFO  PO_Functions.LoginPage  - username entered.
+[main] INFO  PO_Functions.LoginPage  - Password entered.
+[main] INFO  PO_Functions.LoginPage  - succesfully click on login.
+[main] INFO  PO_Functions.BaseClass  - login successful
+[main] INFO  PO_Functions.EditUserPage  - succesfully Search for user.
+[main] INFO  PO_Functions.EditUserPage  - Employee Id is : TestUser77
+[main] INFO  PO_Functions.EditUserPage  - Division changed!!
+[main] INFO  PO_Functions.LoginPage  - username entered.
+[main] INFO  PO_Functions.LoginPage  - Password entered.
+[main] INFO  PO_Functions.LoginPage  - succesfully click on login.
+[main] INFO  PO_Functions.BaseClass  - login successful
+[main] INFO  PO_Functions.EditUserPage  - succesfully Search for user.
+[main] INFO  PO_Functions.EditUserPage  - Employee Id is : TestUser77
+[main] INFO  PO_Functions.EditUserPage  - Division changed!!
+[main] INFO  PO_Functions.LoginPage  - username entered.
+[main] INFO  PO_Functions.LoginPage  - Password entered.
+[main] INFO  PO_Functions.LoginPage  - succesfully click on login.
+[main] INFO  PO_Functions.BaseClass  - login successful
+[main] INFO  PO_Functions.EditUserPage  - succesfully Search for user.
+[main] INFO  PO_Functions.EditUserPage  - Employee Id is : TestUser77
+[main] INFO  PO_Functions.EditUserPage  - Division changed!!
+[main] INFO  PO_Functions.EditUserPage  - Clicked on Set Store!! 
+[main] INFO  PO_Functions.LoginPage  - username entered.
+[main] INFO  PO_Functions.LoginPage  - Password entered.
+[main] INFO  PO_Functions.LoginPage  - succesfully click on login.
+[main] INFO  PO_Functions.BaseClass  - login successful
+[main] INFO  PO_Functions.EditUserPage  - succesfully Search for user.
+[main] INFO  PO_Functions.EditUserPage  - Employee Id is : TestUser77
+[main] INFO  PO_Functions.EditUserPage  - Division changed!!
+[main] INFO  PO_Functions.LoginPage  - username entered.
+[main] INFO  PO_Functions.LoginPage  - Password entered.
+[main] INFO  PO_Functions.LoginPage  - succesfully click on login.
+[main] INFO  PO_Functions.BaseClass  - login successful
+[main] INFO  PO_Functions.EditUserPage  - succesfully Search for user.
+[main] INFO  PO_Functions.EditUserPage  - Employee Id is : TestUser77
+[main] INFO  PO_Functions.EditUserPage  - Division changed!!
+[main] INFO  PO_Functions.LoginPage  - username entered.
+[main] INFO  PO_Functions.LoginPage  - Password entered.
+[main] INFO  PO_Functions.LoginPage  - succesfully click on login.
+[main] INFO  PO_Functions.BaseClass  - login successful
+[main] INFO  PO_Functions.EditUserPage  - succesfully Search for user.
+[main] INFO  PO_Functions.EditUserPage  - Employee Id is : TestUser77
+[main] INFO  PO_Functions.EditUserPage  - Division changed!!
+[main] INFO  PO_Functions.LoginPage  - username entered.
+[main] INFO  PO_Functions.LoginPage  - Password entered.
+[main] INFO  PO_Functions.LoginPage  - succesfully click on login.
+[main] INFO  PO_Functions.BaseClass  - login successful
+[main] INFO  PO_Functions.EditUserPage  - succesfully Search for user.
+[main] INFO  PO_Functions.EditUserPage  - Employee Id is : TestUser77
+[main] INFO  PO_Functions.LoginPage  - username entered.
+[main] INFO  PO_Functions.LoginPage  - Password entered.
+[main] INFO  PO_Functions.LoginPage  - succesfully click on login.
+[main] INFO  PO_Functions.BaseClass  - login successful
+[main] INFO  PO_Functions.EditUserPage  - succesfully Search for user.
+[main] INFO  PO_Functions.EditUserPage  - Employee Id is : TestUser77
+[main] INFO  PO_Functions.EditUserPage  - Division changed!!
+[main] INFO  PO_Functions.LoginPage  - username entered.
+[main] INFO  PO_Functions.LoginPage  - Password entered.
+[main] INFO  PO_Functions.LoginPage  - succesfully click on login.
+[main] INFO  PO_Functions.BaseClass  - login successful
+[main] INFO  PO_Functions.EditUserPage  - succesfully Search for user.
+[main] INFO  PO_Functions.EditUserPage  - Employee Id is : TestUser77
+[main] INFO  PO_Functions.EditUserPage  - Division changed!!
+[main] INFO  PO_Functions.LoginPage  - username entered.
+[main] INFO  PO_Functions.LoginPage  - Password entered.
+[main] INFO  PO_Functions.LoginPage  - succesfully click on login.
+[main] INFO  PO_Functions.BaseClass  - login successful
+[main] INFO  PO_Functions.EditUserPage  - succesfully Search for user.
+[main] INFO  PO_Functions.EditUserPage  - Employee Id is : TestUser77
+[main] INFO  PO_Functions.LoginPage  - username entered.
+[main] INFO  PO_Functions.LoginPage  - Password entered.
+[main] INFO  PO_Functions.LoginPage  - succesfully click on login.
+[main] INFO  PO_Functions.BaseClass  - login successful
+[main] INFO  PO_Functions.EditUserPage  - succesfully Search for user.
+[main] INFO  PO_Functions.EditUserPage  - Employee Id is : TestUser77
+[main] INFO  PO_Functions.LoginPage  - username entered.
+[main] INFO  PO_Functions.LoginPage  - Password entered.
+[main] INFO  PO_Functions.LoginPage  - succesfully click on login.
+[main] INFO  PO_Functions.BaseClass  - login successful
+[main] INFO  PO_Functions.EditUserPage  - succesfully Search for user.
+[main] INFO  PO_Functions.EditUserPage  - Employee Id is : TestUser77
+[main] INFO  PO_Functions.LoginPage  - username entered.
+[main] INFO  PO_Functions.LoginPage  - Password entered.
+[main] INFO  PO_Functions.LoginPage  - succesfully click on login.
+[main] INFO  PO_Functions.BaseClass  - login successful
+[main] INFO  PO_Functions.EditUserPage  - succesfully Search for user.
+[main] INFO  PO_Functions.EditUserPage  - Employee Id is : TestUser77
+[main] INFO  PO_Functions.EditUserPage  - firstname changed!!
+[main] INFO  PO_Functions.EditUserPage  - lastname changed!!
+[main] INFO  PO_Functions.EditUserPage  - EmployeeId changed
+[main] INFO  PO_Functions.EditUserPage  - user type changed!!
+[main] INFO  PO_Functions.LoginPage  - username entered.
+[main] INFO  PO_Functions.LoginPage  - Password entered.
+[main] INFO  PO_Functions.LoginPage  - succesfully click on login.
+[main] INFO  PO_Functions.BaseClass  - login successful
+[main] INFO  PO_Functions.EditUserPage  - succesfully Search for user.
+[main] INFO  PO_Functions.EditUserPage  - Employee Id is : TestUser77
+[main] INFO  PO_Functions.EditUserPage  - firstname changed!!
+[main] INFO  PO_Functions.EditUserPage  - lastname changed!!
+[main] INFO  PO_Functions.EditUserPage  - EmployeeId changed
+[main] INFO  PO_Functions.EditUserPage  - user type changed!!
+[main] INFO  PO_Functions.LoginPage  - username entered.
+[main] INFO  PO_Functions.LoginPage  - Password entered.
+[main] INFO  PO_Functions.LoginPage  - succesfully click on login.
+[main] INFO  PO_Functions.BaseClass  - login successful
+[main] INFO  PO_Functions.AddNewUserPage  - first name added
+[main] INFO  PO_Functions.AddNewUserPage  - last name added
+[main] INFO  PO_Functions.AddNewUserPage  - employee added
+[main] INFO  PO_Functions.AddNewUserPage  - user type added
+[main] INFO  PO_Functions.AddNewUserPage  - Division selected!!
+[main] INFO  PO_Functions.AddNewUserPage  - Region selected!!
+[main] INFO  PO_Functions.AddNewUserPage  - Store selected!!
+[main] INFO  PO_Functions.AddNewUserPage  - Clicked on Set Store!! 
+[main] INFO  PO_Functions.LoginPage  - username entered.
+[main] INFO  PO_Functions.LoginPage  - Password entered.
+[main] INFO  PO_Functions.LoginPage  - succesfully click on login.
+[main] INFO  PO_Functions.BaseClass  - login successful
+[main] INFO  PO_Functions.EditUserPage  - succesfully Search for user.
+[main] INFO  PO_Functions.EditUserPage  - Employee Id is : TestUser77
+[main] INFO  PO_Functions.EditUserPage  - firstname changed!!
+[main] INFO  PO_Functions.EditUserPage  - lastname changed!!
+[main] INFO  PO_Functions.EditUserPage  - EmployeeId changed
+[main] INFO  PO_Functions.EditUserPage  - user type changed!!
+[main] INFO  PO_Functions.LoginPage  - username entered.
+[main] INFO  PO_Functions.LoginPage  - Password entered.
+[main] INFO  PO_Functions.LoginPage  - succesfully click on login.
+[main] INFO  PO_Functions.BaseClass  - login successful
+[main] INFO  PO_Functions.EditUserPage  - succesfully Search for user.
+[main] INFO  PO_Functions.EditUserPage  - Employee Id is : TestUser77
+[main] INFO  PO_Functions.EditUserPage  - firstname changed!!
+[main] INFO  PO_Functions.EditUserPage  - lastname changed!!
+[main] INFO  PO_Functions.EditUserPage  - EmployeeId changed
+[main] INFO  PO_Functions.EditUserPage  - user type changed!!
+[main] INFO  PO_Functions.LoginPage  - username entered.
+[main] INFO  PO_Functions.LoginPage  - Password entered.
+[main] INFO  PO_Functions.LoginPage  - succesfully click on login.
+[main] INFO  PO_Functions.BaseClass  - login successful
+[main] INFO  PO_Functions.EditUserPage  - succesfully Search for user.
+[main] INFO  PO_Functions.EditUserPage  - Employee Id is : TestUser77
+[main] INFO  PO_Functions.EditUserPage  - firstname changed!!
+[main] INFO  PO_Functions.EditUserPage  - lastname changed!!
+[main] INFO  PO_Functions.EditUserPage  - EmployeeId changed
+[main] INFO  PO_Functions.EditUserPage  - user type changed!!
+[main] INFO  PO_Functions.LoginPage  - username entered.
+[main] INFO  PO_Functions.LoginPage  - Password entered.
+[main] INFO  PO_Functions.LoginPage  - succesfully click on login.
+[main] INFO  PO_Functions.BaseClass  - login successful
+[main] INFO  PO_Functions.EditUserPage  - succesfully Search for user.
+[main] INFO  PO_Functions.EditUserPage  - Employee Id is : 1234
+[main] INFO  PO_Functions.EditUserPage  - firstname changed!!
+[main] INFO  PO_Functions.EditUserPage  - lastname changed!!
+[main] INFO  PO_Functions.EditUserPage  - EmployeeId changed
+[main] INFO  PO_Functions.EditUserPage  - user type changed!!
+[main] INFO  PO_Functions.LoginPage  - username entered.
+[main] INFO  PO_Functions.LoginPage  - Password entered.
+[main] INFO  PO_Functions.LoginPage  - succesfully click on login.
+[main] INFO  PO_Functions.BaseClass  - login successful
+[main] INFO  PO_Functions.EditUserPage  - succesfully Search for user.
+[main] INFO  PO_Functions.EditUserPage  - Employee Id is : TestUser77
+[main] INFO  PO_Functions.EditUserPage  - firstname changed!!
+[main] INFO  PO_Functions.EditUserPage  - lastname changed!!
+[main] INFO  PO_Functions.EditUserPage  - EmployeeId changed
+[main] INFO  PO_Functions.EditUserPage  - user type changed!!
+[main] INFO  PO_Functions.LoginPage  - username entered.
+[main] INFO  PO_Functions.LoginPage  - Password entered.
+[main] INFO  PO_Functions.LoginPage  - succesfully click on login.
+[main] INFO  PO_Functions.BaseClass  - login successful
+[main] INFO  PO_Functions.EditUserPage  - succesfully Search for user.
+[main] INFO  PO_Functions.EditUserPage  - Employee Id is : TestUser77
+[main] INFO  PO_Functions.EditUserPage  - firstname changed!!
+[main] INFO  PO_Functions.EditUserPage  - lastname changed!!
+[main] INFO  PO_Functions.EditUserPage  - EmployeeId changed
+[main] INFO  PO_Functions.EditUserPage  - user type changed!!
+[main] INFO  PO_Functions.LoginPage  - username entered.
+[main] INFO  PO_Functions.LoginPage  - Password entered.
+[main] INFO  PO_Functions.LoginPage  - succesfully click on login.
+[main] INFO  PO_Functions.BaseClass  - login successful
+[main] INFO  PO_Functions.EditUserPage  - succesfully Search for user.
+[main] INFO  PO_Functions.EditUserPage  - Employee Id is : 1234
+[main] INFO  PO_Functions.EditUserPage  - firstname changed!!
+[main] INFO  PO_Functions.EditUserPage  - lastname changed!!
+[main] INFO  PO_Functions.EditUserPage  - EmployeeId changed
+[main] INFO  PO_Functions.EditUserPage  - user type changed!!
+[main] INFO  PO_Functions.LoginPage  - username entered.
+[main] INFO  PO_Functions.LoginPage  - Password entered.
+[main] INFO  PO_Functions.LoginPage  - succesfully click on login.
+[main] INFO  PO_Functions.BaseClass  - login successful
+[main] INFO  PO_Functions.AddNewUserPage  - first name added
+[main] INFO  PO_Functions.AddNewUserPage  - last name added
+[main] INFO  PO_Functions.AddNewUserPage  - employee added
+[main] INFO  PO_Functions.AddNewUserPage  - user type added
+[main] INFO  PO_Functions.AddNewUserPage  - Division selected!!
+[main] INFO  PO_Functions.AddNewUserPage  - Region selected!!
+[main] INFO  PO_Functions.AddNewUserPage  - Store selected!!
+[main] INFO  PO_Functions.AddNewUserPage  - Clicked on Set Store!! 
+[main] INFO  PO_Functions.BaseClass  - user created
+[main] INFO  PO_Functions.LoginPage  - username entered.
+[main] INFO  PO_Functions.LoginPage  - Password entered.
+[main] INFO  PO_Functions.LoginPage  - succesfully click on login.
+[main] INFO  PO_Functions.BaseClass  - login successful
+[main] INFO  PO_Functions.EditUserPage  - succesfully Search for user.
+[main] INFO  PO_Functions.EditUserPage  - Employee Id is : 1234
+[main] INFO  PO_Functions.EditUserPage  - firstname changed!!
+[main] INFO  PO_Functions.EditUserPage  - lastname changed!!
+[main] INFO  PO_Functions.EditUserPage  - EmployeeId changed
+[main] INFO  PO_Functions.EditUserPage  - user type changed!!
+[main] INFO  PO_Functions.LoginPage  - username entered.
+[main] INFO  PO_Functions.LoginPage  - Password entered.
+[main] INFO  PO_Functions.LoginPage  - succesfully click on login.
+[main] INFO  PO_Functions.BaseClass  - login successful
+[main] INFO  PO_Functions.EditUserPage  - succesfully Search for user.
+[main] INFO  PO_Functions.EditUserPage  - Employee Id is : 1234
+[main] INFO  PO_Functions.EditUserPage  - firstname changed!!
+[main] INFO  PO_Functions.EditUserPage  - lastname changed!!
+[main] INFO  PO_Functions.EditUserPage  - EmployeeId changed
+[main] INFO  PO_Functions.EditUserPage  - user type changed!!
+[main] INFO  PO_Functions.LoginPage  - username entered.
+[main] INFO  PO_Functions.LoginPage  - Password entered.
+[main] INFO  PO_Functions.LoginPage  - succesfully click on login.
+[main] INFO  PO_Functions.BaseClass  - login successful
+[main] INFO  PO_Functions.EditUserPage  - succesfully Search for user.
+[main] INFO  PO_Functions.EditUserPage  - Employee Id is : 1234
+[main] INFO  PO_Functions.EditUserPage  - firstname changed!!
+[main] INFO  PO_Functions.EditUserPage  - lastname changed!!
+[main] INFO  PO_Functions.EditUserPage  - EmployeeId changed
+[main] INFO  PO_Functions.EditUserPage  - user type changed!!
+[main] INFO  PO_Functions.LoginPage  - username entered.
+[main] INFO  PO_Functions.LoginPage  - Password entered.
+[main] INFO  PO_Functions.LoginPage  - succesfully click on login.
+[main] INFO  PO_Functions.BaseClass  - login successful
+[main] INFO  PO_Functions.EditUserPage  - succesfully Search for user.
+[main] INFO  PO_Functions.EditUserPage  - Employee Id is : 1234
+[main] INFO  PO_Functions.EditUserPage  - firstname changed!!
+[main] INFO  PO_Functions.EditUserPage  - lastname changed!!
+[main] INFO  PO_Functions.EditUserPage  - EmployeeId changed
+[main] INFO  PO_Functions.EditUserPage  - user type changed!!
