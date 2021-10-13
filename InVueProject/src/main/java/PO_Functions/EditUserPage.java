@@ -163,26 +163,21 @@ public class EditUserPage extends WebElementActions{
 
 	  WebDriverWait wait = new WebDriverWait(driver, 50);
 	 	
-	 WebElement div=driver.findElement(By.xpath("//*[contains(text(),'South (A)')]"));
+	WebElement div=driver.findElement(By.xpath("//span[starts-with(@id, 'react-select-')]"));
+
+	wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//span[starts-with(@id, 'react-select-')]")));
+	driver.findElement(By.id("//span[starts-with(@id, 'react-select-')]")).click();	
+	
+	//div.click();
 	//  Thread.sleep(5000);
 	  
+	
 	/*
 	 * Actions action = new Actions(driver); WebElement optionsList =
 	 * driver.findElement(By.xpath("//span[contains(text(),'South (A)')]"));
-	 * action.moveToElement(optionsList);
+	 * action.moveToElement(optionsList).click();
 	 * 
-	 * List<WebElement> options =
-	 * driver.findElements(By.xpath("//span[contains(text(),'South (A)')]"));
-	 * for(WebElement option : options) { if (option.getText().equals("South (A)"))
-	 * { option.click(); } }
 	 */
-	  
-	  
-	  
-	// JavascriptExecutor js = (JavascriptExecutor)driver;
-	// js.executeScript("arguments[0].click();", div);
-	//  js.executeScript("window.document.getElementByxpath(\"//span[contains(text(),'South (A)')]\").click()");
-	  
 	  Thread.sleep(5000);
 	  
 	  logger.info("Division changed!!");
@@ -194,6 +189,7 @@ public class EditUserPage extends WebElementActions{
 			
 			btnSetStore.click();
 			logger.info("Clicked on Set Store!! ");
+			
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 			
 		}
@@ -201,6 +197,8 @@ public class EditUserPage extends WebElementActions{
 
 		public void Clicksave() {
 			btnsave.click();
+			
+			logger.info("click on save!!");
 		}
 	 
 	
