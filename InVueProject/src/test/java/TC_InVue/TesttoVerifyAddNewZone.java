@@ -5,6 +5,8 @@ import java.util.concurrent.TimeUnit;
 
 import org.testng.annotations.Test;
 
+import com.aventstack.extentreports.MediaEntityBuilder;
+
 import PO_Functions.AddNewUserPage;
 import PO_Functions.AddNewZonePage;
 import PO_Functions.BaseClass;
@@ -15,6 +17,8 @@ public class TesttoVerifyAddNewZone extends BaseClass {
 	@Test
 	public void AddNewZone() throws  IOException, InterruptedException 
 	{
+		
+		log=report.createTest("NewZone");
 		
 		LoginPage lp=new LoginPage(driver);
 		lp.login();
@@ -27,6 +31,7 @@ public class TesttoVerifyAddNewZone extends BaseClass {
 		
 		logger.info("Zone created");
 		captureScreen(driver,"AddNewZone");
+		log.pass("Zone Added!", MediaEntityBuilder.createScreenCaptureFromPath(captureScreen(driver,"NewZoneTest")).build());
 	
 		
 	}

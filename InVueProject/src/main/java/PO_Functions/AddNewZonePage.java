@@ -67,8 +67,8 @@ public class AddNewZonePage extends WebElementActions {
 		Random random = new Random();
 		clickzone();
 		clickaddzone();
-		zonename("Test Zone");
-		zonedesc("This is for Testing purpose"  + random.nextInt(10));
+		zonename("Test Zone" + + random.nextInt(10));
+		zonedesc("This is for Testing purpose" );
 		clicksave();
 		
 		

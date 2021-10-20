@@ -5,6 +5,8 @@ import java.util.concurrent.TimeUnit;
 
 import org.testng.annotations.Test;
 
+import com.aventstack.extentreports.MediaEntityBuilder;
+
 import PO_Functions.AddNewRolePage;
 import PO_Functions.AddNewUserPage;
 import PO_Functions.BaseClass;
@@ -16,6 +18,8 @@ public class TesttoVerifyAddNewRole extends BaseClass{
 	public void AddNewRole() throws  IOException, InterruptedException 
 	{
 		
+		log=report.createTest("NewRole");
+		
 		LoginPage lp=new LoginPage(driver);
 		lp.login();
 		logger.info("login successful");
@@ -25,7 +29,8 @@ public class TesttoVerifyAddNewRole extends BaseClass{
 		AddNewRolePage newrole=new AddNewRolePage(driver);
 		newrole.addNewRole();
 		logger.info("Role created");
-		//captureScreen(driver,"AddNewRole");
+		log.pass("New Role Added!", MediaEntityBuilder.createScreenCaptureFromPath(captureScreen(driver,"NewRoleTest")).build());
+		captureScreen(driver,"AddNewRole");
 		
 	}
 

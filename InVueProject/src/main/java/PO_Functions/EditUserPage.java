@@ -8,10 +8,12 @@ import java.util.List;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.commons.exec.OS;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -157,29 +159,74 @@ public class EditUserPage extends WebElementActions{
 	  
 	  {
 	  
-	  driver.findElement(By.xpath(  "//*[@id=\"modal-container\"]/div[1]/div/table/tbody/tr[1]/td[2]/div/div/span[1]/span"  )).click();
-	  WebElement element=driver.findElement(By.xpath(  "//*[@id=\"react-select-2--value\"]/div[1]"));
-	  element.click();
 
-	  WebDriverWait wait = new WebDriverWait(driver, 50);
-	 	
-	WebElement div=driver.findElement(By.xpath("//span[starts-with(@id, 'react-select-')]"));
+		    WebElement element=driver.findElement(By.xpath("//*[@id=\"react-select-2--value\"]/div[1]"));
+	        element.click();
+	        
+	        WebDriverWait wait = new WebDriverWait(driver, 50);
+	        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[contains(text(),'South (A)')]")));
 
-	wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//span[starts-with(@id, 'react-select-')]")));
-	driver.findElement(By.id("//span[starts-with(@id, 'react-select-')]")).click();	
-	
-	//div.click();
-	//  Thread.sleep(5000);
-	  
-	
-	/*
-	 * Actions action = new Actions(driver); WebElement optionsList =
-	 * driver.findElement(By.xpath("//span[contains(text(),'South (A)')]"));
-	 * action.moveToElement(optionsList).click();
-	 * 
-	 */
-	  Thread.sleep(5000);
-	  
+	        WebElement div=driver.findElement(By.xpath("//span[contains(text(),'South (A)')]"));
+	        driver.manage().window().fullscreen();
+	 
+	 
+	        if(div.isDisplayed()) {
+				
+				logger.info("div is displayed");
+				div.click();
+				 wait.until(ExpectedConditions.elementToBeClickable(div));
+			}
+			else {
+				
+				logger.info("Zone is not updated!!");
+				
+			}
+			
+	      //  driver.findElement(By.xpath("//span[contains(text(),'South (A)')]")).click();
+	       
+		  
+			/*
+			 * driver.findElement(By.xpath(
+			 * "//*[@id=\"modal-container\"]/div[1]/div/table/tbody/tr[1]/td[2]/div/div/span[1]/span"
+			 * )).click(); WebElement element=driver.findElement(By.xpath(
+			 * "//*[@id=\"react-select-2--value\"]/div[1]")); element.click();
+			 * 
+			 * WebDriverWait wait = new WebDriverWait(driver, 50);
+			 * 
+			 * WebElement
+			 * div=driver.findElement(By.xpath("//span[contains(text(),'South (A)')]")); new
+			 * WebDriverWait(driver,
+			 * 50).until(ExpectedConditions.visibilityOfElementLocated(By.
+			 * xpath("//span[contains(text(),'South (A)')]")));
+			 */
+	        /*
+	         * Select select = new Select(div); select.selectByVisibleText("South (A)");
+	         * select.selectByIndex(0);
+			         */
+			//wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//span[starts-with(@id, 'react-select-')]")));
+			//driver.findElement(By.id("//span[starts-with(@id, 'react-select-')]")).click();	
+			
+			//div.click();
+			//  Thread.sleep(5000);
+			  
+			
+			  
+			  //Select from dropdown
+		    //  WebElement we=wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//span[contains(text(),'South (A)')]")));
+		      /*we.click();
+		      we.sendKeys("email");*/
+				/*
+				 * Actions actions = new Actions(driver); actions.moveToElement(we);
+				 * actions.click(); actions.sendKeys("south"); actions.sendKeys(Keys.ENTER)
+				 */;
+		    //  actions.build().perform();
+			  
+			
+			/*
+			 * Actions action = new Actions(driver); WebElement optionsList
+			 * =driver.findElement(By.xpath("//span[contains(text(),'South (A)')]"));
+			 * action.moveToElement(optionsList); optionsList.submit(); Thread.sleep(5000);
+			 */
 	  logger.info("Division changed!!");
 	  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	  
@@ -213,7 +260,7 @@ public class EditUserPage extends WebElementActions{
 		  changelastname("Edit");
 		  changeId("123445");
 		//  changeusertype();
-		  ClickLevelofAccess();
+		 // ClickLevelofAccess();
 		  Clicksave();
 	 
 	  

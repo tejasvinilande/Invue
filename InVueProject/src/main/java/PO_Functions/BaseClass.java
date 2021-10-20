@@ -18,7 +18,13 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeSuite;
+
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 
 import Utilities.ReadConfig;
 
@@ -31,9 +37,23 @@ public class BaseClass {
 	public String username=pro.getUserName();
 	public String password=pro.getpassword();
 	public static WebDriver driver;
+	public ExtentReports report;
+	public ExtentTest log;
 	
 //	public static Logger logger;
 	public static Logger logger = Logger.getLogger(BaseClass.class);
+	
+	
+	@BeforeSuite()
+	public void setUpsuite() {
+		ExtentHtmlReporter extent= new ExtentHtmlReporter(new File(System.getProperty("user.dir")+"/reports/LoginReport.html"));
+		report=new ExtentReports();
+		report.attachReporter(extent);
+		
+		
+	}
+	
+	
 	
 	@BeforeClass
 	public void setup() throws IOException {
@@ -97,14 +117,22 @@ public class BaseClass {
 	}
 	
 
-	public void captureScreen(WebDriver driver,String tname) throws IOException {
+	public String captureScreen(WebDriver driver,String tname) throws IOException {
 		
+		String screenshotpath=System.getProperty("user.dir") + "/Screenshots/" + tname + ".png";
 		TakesScreenshot ts=(TakesScreenshot) driver;
 		File source=ts.getScreenshotAs(OutputType.FILE);
-		File target =new File(System.getProperty("user.dir") + "/Screenshots/" + tname + ".png");
+		File target =new File(screenshotpath);
 		FileUtils.copyFile(source, target);
 		System.out.println("Screenshot Taken");
+		return screenshotpath;
 		
 	}
+	
+	@AfterMethod
+	public void teardownmethod() {
+		report.flush();
+	}
+	
 	
 }
