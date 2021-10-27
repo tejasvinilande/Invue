@@ -18,7 +18,7 @@ public class TesttoVerifyAddNewRole extends BaseClass{
 	public void AddNewRole() throws  IOException, InterruptedException 
 	{
 		
-		log=report.createTest("NewRole");
+		
 		
 		LoginPage lp=new LoginPage(driver);
 		lp.login();
@@ -29,7 +29,8 @@ public class TesttoVerifyAddNewRole extends BaseClass{
 		AddNewRolePage newrole=new AddNewRolePage(driver);
 		newrole.addNewRole();
 		logger.info("Role created");
-		log.pass("New Role Added!", MediaEntityBuilder.createScreenCaptureFromPath(captureScreen(driver,"NewRoleTest")).build());
+
+
 		captureScreen(driver,"AddNewRole");
 		
 	}

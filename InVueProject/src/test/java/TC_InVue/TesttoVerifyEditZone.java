@@ -20,8 +20,7 @@ public class TesttoVerifyEditZone extends BaseClass {
 	public void Editzone() throws  IOException, InterruptedException 
 	{
 		
-		log=report.createTest("EditZone");
-		
+			
 		LoginPage lp=new LoginPage(driver);
 		lp.login();
 		logger.info("login successful");
@@ -36,12 +35,12 @@ public class TesttoVerifyEditZone extends BaseClass {
 		if(zone.isDisplayed()) {
 			
 			logger.info("zone is updated!!");	
-			log.pass("Zone is Updated!", MediaEntityBuilder.createScreenCaptureFromPath(captureScreen(driver,"EditZone")).build());
+
+
 		}
 		else {
 			
 			logger.info("Zone is not updated!!");
-			log.fail("Zone is not Edited!", MediaEntityBuilder.createScreenCaptureFromPath(captureScreen(driver,"EditZone")).build());
 			
 		}
 		

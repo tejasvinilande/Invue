@@ -46,6 +46,9 @@ public class AddNewUserPage extends WebElementActions {
 
 	@FindBy(xpath = "//*[@id=\"scroller\"]/div/div[3]/input")
 	WebElement txtfirstname;
+	
+	@FindBy(xpath ="//*[@id='scroller']/div/div[5]/input")
+	WebElement txtMiddlename;
 
 	@FindBy(xpath = "//*[@id=\"scroller\"]/div/div[7]/input")
 	WebElement txtlastname;
@@ -55,6 +58,9 @@ public class AddNewUserPage extends WebElementActions {
 
 	@FindBy(xpath = "//*[@id=\"UserTypeId\"]")
 	WebElement usertype;
+	
+	@FindBy(xpath="//*[@id='enabled']")
+	WebElement Accountenable;
 
 	@FindBy(xpath = "//button[@class='button primary']")
 	WebElement btnsave;
@@ -80,7 +86,11 @@ public class AddNewUserPage extends WebElementActions {
 	public void firstname(String fname) {
 		txtfirstname.sendKeys(fname);
 		logger.info("first name added");
-
+	}
+	
+	public void middlename(String mname) {
+		txtMiddlename.sendKeys(mname);
+		logger.info("Middle name added");
 	}
 
 	public void lastname(String lname) {
@@ -103,9 +113,33 @@ public class AddNewUserPage extends WebElementActions {
 		logger.info("user type added");
 
 	}
-
 	
-	  public void ClickLevelofAccess() throws InterruptedException { 
+	public void checkAccountEnabled() {
+		
+	    Select select = new Select(driver. findElement(By. xpath("//*[@id='enabled']")));
+	    WebElement option = select. getFirstSelectedOption();
+	    String defaultItem = option. getText();
+	    logger.info("Account Enabled :-"+defaultItem );
+	   
+	}
+	
+	public void checkrestrictedmode() {
+		
+		Select select = new Select(driver. findElement(By. xpath("//*[@id=\"sounder\"]")));
+	    WebElement option = select. getFirstSelectedOption();
+	    String defaultItem = option. getText();
+	    logger.info("Restricted Mode:-"+defaultItem );
+	}
+	
+	public void checkappsession() {
+		
+		Select select = new Select(driver. findElement(By. xpath("//*[@id=\"duration\"]")));
+	    WebElement option = select. getFirstSelectedOption();
+	    String defaultItem = option. getText();
+	    logger.info("Key/App Session:-"+defaultItem );
+	}
+	
+	public void ClickLevelofAccess() throws InterruptedException { 
 		  
 			
 			  String parentWindowHandler = driver.getWindowHandle(); // Store your parent
@@ -129,10 +163,7 @@ public class AddNewUserPage extends WebElementActions {
 			  
 	  }
 	 
-
-	
-		
-		  public void selectDivision() throws InterruptedException
+	public void selectDivision() throws InterruptedException
 		  
 		  {
 			    WebElement element=driver.findElement(By.xpath("//*[@id=\"react-select-2--value\"]/div[1]"));
@@ -170,7 +201,7 @@ public class AddNewUserPage extends WebElementActions {
 		
 		
 	}
-
+	
 	public void Clicksave() {
 		btnsave.click();
 	}
@@ -204,17 +235,21 @@ public class AddNewUserPage extends WebElementActions {
 
 	public void Adduser() throws InterruptedException {
 		
-		Random random = new Random();
-		clickuser();
-		clickadduser();
-		firstname("Test");
-		lastname("User");
-		employeeid("TestUser" + random.nextInt(100));
-		usertype();
-		ClickLevelofAccess();
-		Clicksave();
-		ClickDone();
-
+	   	Random random = new Random();
+		  clickuser();
+		  clickadduser();
+		  firstname("Test");
+		  middlename("Testing");
+		  lastname("User"); 
+		  employeeid("TestUser" +  random.nextInt(100));
+		  usertype();
+		  checkAccountEnabled();
+		  checkrestrictedmode();
+		  checkappsession();
+		  ClickLevelofAccess();
+		  Clicksave();
+		  ClickDone();
+		 
 	}
 
 }

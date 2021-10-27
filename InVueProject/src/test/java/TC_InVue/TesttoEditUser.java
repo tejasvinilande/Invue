@@ -19,7 +19,7 @@ public class TesttoEditUser extends BaseClass {
 	
 	{
 		
-	log=report.createTest("EditUser");
+	
 	
 	LoginPage lp=new LoginPage(driver);
 	lp.login();
@@ -27,7 +27,7 @@ public class TesttoEditUser extends BaseClass {
 	
 	EditUserPage user=new EditUserPage(driver);
 	user.Edituser();
-	log.pass("User Edited!", MediaEntityBuilder.createScreenCaptureFromPath(captureScreen(driver,"EditUser")).build());
+	
 
 	
 	}

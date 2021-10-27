@@ -24,6 +24,7 @@ import org.testng.annotations.BeforeSuite;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
+
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 
 import Utilities.ReadConfig;
@@ -44,14 +45,7 @@ public class BaseClass {
 	public static Logger logger = Logger.getLogger(BaseClass.class);
 	
 	
-	@BeforeSuite()
-	public void setUpsuite() {
-		ExtentHtmlReporter extent= new ExtentHtmlReporter(new File(System.getProperty("user.dir")+"/reports/LoginReport.html"));
-		report=new ExtentReports();
-		report.attachReporter(extent);
-		
-		
-	}
+	
 	
 	
 	
@@ -66,6 +60,7 @@ public class BaseClass {
 		{
 		
 			System.setProperty("webdriver.chrome.driver",pro.getchromepath());
+			System.setProperty("webdriver.chrome.silentOutput", "true");
 			ChromeOptions options = new ChromeOptions();
 			options.addArguments("enable-automation");
 			//options.addArguments("--headless"); //should be enabled for Jenkins
@@ -117,7 +112,7 @@ public class BaseClass {
 	}
 	
 
-	public String captureScreen(WebDriver driver,String tname) throws IOException {
+	public void captureScreen(WebDriver driver,String tname) throws IOException {
 		
 		String screenshotpath=System.getProperty("user.dir") + "/Screenshots/" + tname + ".png";
 		TakesScreenshot ts=(TakesScreenshot) driver;
@@ -125,13 +120,8 @@ public class BaseClass {
 		File target =new File(screenshotpath);
 		FileUtils.copyFile(source, target);
 		System.out.println("Screenshot Taken");
-		return screenshotpath;
 		
-	}
-	
-	@AfterMethod
-	public void teardownmethod() {
-		report.flush();
+		
 	}
 	
 	

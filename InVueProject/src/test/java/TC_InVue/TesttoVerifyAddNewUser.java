@@ -20,17 +20,16 @@ public class TesttoVerifyAddNewUser extends BaseClass {
 	public void AddNewUser() throws  IOException, InterruptedException 
 	{
 		
-		log=report.createTest("NewUser");
+	
 		LoginPage lp=new LoginPage(driver);
 		lp.login();
 		logger.info("login successful");
 		
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		AddNewUserPage newuser=new AddNewUserPage(driver);
 		newuser.Adduser();
 		
-		log.pass("User Created!", MediaEntityBuilder.createScreenCaptureFromPath(captureScreen(driver,"NewUserTest")).build());
+	
 		logger.info("user created");
 		captureScreen(driver,"AddNewUser");
 	
