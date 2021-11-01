@@ -78,6 +78,7 @@ public class EditUserPage extends WebElementActions{
 
 	public void searchuser(String user) {
 
+			driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 			txtSearchUser.sendKeys(user);
 			logger.info("succesfully Search for user.");
 
@@ -85,12 +86,10 @@ public class EditUserPage extends WebElementActions{
 	
 	public void selectuser() throws InterruptedException {
 		
-		Thread.sleep(5000);
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		Actions action = new Actions(driver);
 		WebElement user=driver.findElement(By.xpath("//*[@id=\"app\"]/div/div[2]/div[2]/div/div[2]/div/div[2]/ul/div/div/li[2]/div[1]/div/h2"));
-		Thread.sleep(5000);
-		action.moveToElement(user).click().perform();
-		
+		action.moveToElement(user).click().perform();	
 		String st=driver.findElement(By.xpath("//*[@id=\"scroller\"]/div/div[9]/input")).getAttribute("value");
 		logger.info("Employee Id is : " + st);
 	
@@ -250,7 +249,8 @@ public class EditUserPage extends WebElementActions{
 	 
 	
 	  public void Edituser() throws InterruptedException { 
-	  
+		  
+		  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		  clickuser();
 		  Thread.sleep(5000);
 		  searchuser("Test User");
@@ -261,7 +261,7 @@ public class EditUserPage extends WebElementActions{
 		  changeId("123445");
 		//  changeusertype();
 		 // ClickLevelofAccess();
-		  Clicksave();
+		 // Clicksave();
 	 
 	  
 	  }

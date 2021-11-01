@@ -68,7 +68,7 @@ public class AddNewRolePage extends WebElementActions {
 		action.moveToElement(SelZone).click().build().perform();
 		wait.until(ExpectedConditions.elementToBeClickable(SelZone));
 		
-		//SelZone.click();
+		
 	}
 	
 	public void clickSave() {
