@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TC_InVue.TesttoEditUser">
+      <class name="TC_InVue.TesttoVerifyAuditlogs">
         <methods>
           <include name="setup"/>
-          <include name="EditUser"/>
           <include name="teardown"/>
+          <include name="TesttoVerifyAuditlogs"/>
         </methods>
-      </class> <!-- TC_InVue.TesttoEditUser -->
+      </class> <!-- TC_InVue.TesttoVerifyAuditlogs -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,6 +1,7 @@
 package PO_Functions;
 
 import java.util.ArrayList;
+
 import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
@@ -22,6 +23,7 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.sun.java.swing.plaf.windows.resources.windows;
+
 
 import java.util.Random;
 
@@ -157,7 +159,7 @@ public class AddNewUserPage extends WebElementActions {
 			  selectDivision();
 			  selectRegion();
 			  selectStore();
-			  ClickSetStore();
+			 // ClickSetStore();
 			  
 			  driver.switchTo().window(parentWindowHandler);
 			  
@@ -180,7 +182,9 @@ public class AddNewUserPage extends WebElementActions {
 		
 			WebElement element=driver.findElement(By.xpath("//*[@id=\"react-select-3--value\"]/div[1]"));
 	        element.click();
-	        driver.findElement(By.xpath("//*[text()='Test Region']")).click();
+	        WebDriverWait wait = new WebDriverWait(driver, 25);
+	        WebElement region=driver.findElement(By.xpath("//span[contains(text()='Test Region']"));
+	        wait.until(ExpectedConditions.elementToBeClickable(region));
 	        logger.info("Region selected!!");
 	        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		
